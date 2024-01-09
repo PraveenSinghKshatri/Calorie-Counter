@@ -105,3 +105,20 @@
   .fa-github{
     cursor: pointer;
   }
+
+  /* Responsive styles */
+  @media only screen and (max-width: 480px) {
+    body {
+      font-size: 14px;
+    }
+  
+    .container {
+      padding: 0 5px;
+    }
+  
+    button,
+    input,
+    select {
+      padding: 8px;
+    }
+  }
